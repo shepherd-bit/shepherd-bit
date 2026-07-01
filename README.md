@@ -1,1 +1,1 @@
-![My Stats Card](https://github-readme-stats.shion.dev/api?username=shepherd-bit&show_icons=true&theme=merko)
+![My Stats Card](https://github-readme-stats.shion.dev/api?username=shepherd-bit&show_icons=true&theme=dark)
