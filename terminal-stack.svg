@@ -20,7 +20,10 @@
   </defs>
 
   <!-- Terminal Window with Soft Shadow (matching projects.svg) -->
-  <g transform="translate(20, 20)" filter="url(#term-shadow)">
+  <g transform="translate(20, 20)">
+    <!-- Shadow layer (behind card) -->
+    <rect width="800" height="260" rx="12" fill="#1a73e8" filter="url(#term-shadow)" opacity="0.1"/>
+    <!-- Card (clean, no filter) -->
     <rect width="800" height="260" rx="12" fill="url(#term-bg)" stroke="#dadce0" stroke-width="1.2"/>
 
     <!-- Window Title Bar -->

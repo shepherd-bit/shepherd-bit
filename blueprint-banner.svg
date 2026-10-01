@@ -24,7 +24,10 @@
   </defs>
 
   <!-- Main Card with Soft Shadow (matching projects.svg) -->
-  <g transform="translate(20, 20)" filter="url(#proj-shadow)">
+  <g transform="translate(20, 20)">
+    <!-- Shadow layer (behind card) -->
+    <rect width="800" height="200" rx="12" fill="#1a73e8" filter="url(#proj-shadow)" opacity="0.1"/>
+    <!-- Card (clean, no filter) -->
     <rect width="800" height="200" rx="12" fill="url(#circuit-bg)" stroke="#dadce0" stroke-width="1.2"/>
 
     <!-- Blueprint Grid Lines (Subtle) -->
