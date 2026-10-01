@@ -26,9 +26,9 @@
   <!-- Main Card with Soft Shadow (matching projects.svg) -->
   <g transform="translate(20, 20)">
     <!-- Shadow layer (behind card) -->
-    <rect width="800" height="200" rx="0" fill="#1a73e8" filter="url(#proj-shadow)" opacity="0.1"/>
+    <rect width="800" height="200" rx="6" fill="#1a73e8" filter="url(#proj-shadow)" opacity="0.1"/>
     <!-- Card (clean, no filter) -->
-    <rect width="800" height="200" rx="0" fill="url(#circuit-bg)" stroke="#dadce0" stroke-width="1.2"/>
+    <rect width="800" height="200" rx="6" fill="url(#circuit-bg)" stroke="#dadce0" stroke-width="1.2"/>
 
     <!-- Blueprint Grid Lines (Subtle) -->
     <g stroke="#1a73e8" stroke-width="0.75" opacity="0.3" fill="none">
@@ -40,7 +40,7 @@
 
     <!-- Icon Group (Component) with Ultra-Floating Shadow applied -->
     <g transform="translate(40, 35)" filter="url(#icon-float-shadow)">
-      <rect x="0" y="0" width="130" height="130" rx="0" fill="#e8f0fe" stroke="#1a73e8" stroke-width="2"/>
+      <rect x="0" y="0" width="130" height="130" rx="6" fill="#e8f0fe" stroke="#1a73e8" stroke-width="2"/>
       <rect x="25" y="25" width="80" height="80" rx="6" fill="#ffffff" stroke="#34a853" stroke-width="1.5" stroke-dasharray="3 2"/>
       <circle cx="65" cy="65" r="16" fill="#1a73e8"/>
       <circle cx="65" cy="65" r="6" fill="#fbbc05"/>

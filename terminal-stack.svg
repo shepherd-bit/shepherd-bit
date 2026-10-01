@@ -22,12 +22,12 @@
   <!-- Terminal Window with Soft Shadow (matching projects.svg) -->
   <g transform="translate(20, 20)">
     <!-- Shadow layer (behind card) -->
-    <rect width="800" height="260" rx="0" fill="#1a73e8" filter="url(#term-shadow)" opacity="0.1"/>
+    <rect width="800" height="260" rx="6" fill="#1a73e8" filter="url(#term-shadow)" opacity="0.1"/>
     <!-- Card (clean, no filter) -->
-    <rect width="800" height="260" rx="0" fill="url(#term-bg)" stroke="#dadce0" stroke-width="1.2"/>
+    <rect width="800" height="260" rx="6" fill="url(#term-bg)" stroke="#dadce0" stroke-width="1.2"/>
 
     <!-- Window Title Bar -->
-    <rect x="0" y="0" width="800" height="36" rx="0" fill="#f1f3f4"/>
+    <rect x="0" y="0" width="800" height="36" rx="6" fill="#f1f3f4"/>
     <rect x="0" y="24" width="800" height="12" fill="#f1f3f4"/>
 
     <!-- Traffic Lights -->
