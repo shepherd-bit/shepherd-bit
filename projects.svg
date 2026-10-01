@@ -21,7 +21,7 @@
   <a href="https://vortex-blogs-1-esum.vercel.app/" target="_blank" class="card-link">
     <g transform="translate(30, 55)" filter="url(#proj-shadow)">
       <!-- Background Card -->
-      <rect width="230" height="230" rx="12" fill="#ffffff" stroke="#dadce0" stroke-width="1.2"/>
+      <rect width="230" height="230" rx="0" fill="#ffffff" stroke="#dadce0" stroke-width="1.2"/>
       <!-- Top Accent Bar -->
       <rect width="230" height="6" rx="3" fill="#34a853"/>
       
@@ -48,7 +48,7 @@
   <a href="https://noir-estates-1.vercel.app/" target="_blank" class="card-link">
     <g transform="translate(285, 55)" filter="url(#proj-shadow)">
       <!-- Background Card -->
-      <rect width="230" height="230" rx="12" fill="#ffffff" stroke="#dadce0" stroke-width="1.2"/>
+      <rect width="230" height="230" rx="0" fill="#ffffff" stroke="#dadce0" stroke-width="1.2"/>
       <!-- Top Accent Bar -->
       <rect width="230" height="6" rx="3" fill="#1a73e8"/>
       
@@ -75,7 +75,7 @@
   <a href="https://nova-1-wslo.vercel.app/" target="_blank" class="card-link">
     <g transform="translate(540, 55)" filter="url(#proj-shadow)">
       <!-- Background Card -->
-      <rect width="230" height="230" rx="12" fill="#ffffff" stroke="#dadce0" stroke-width="1.2"/>
+      <rect width="230" height="230" rx="0" fill="#ffffff" stroke="#dadce0" stroke-width="1.2"/>
       <!-- Top Accent Bar -->
       <rect width="230" height="6" rx="3" fill="#fbbc05"/>
       
