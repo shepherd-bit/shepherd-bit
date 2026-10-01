@@ -10,11 +10,10 @@
       <stop offset="100%" stop-color="#f8f9fa"/>
     </linearGradient>
 
-    <!-- ULTRA-HEAVY SHADOW FILTER 1: Main Card Drop Shadow -->
-    <!-- Increased blur (stdDeviation) significantly and darkened color/opacity -->
-    <filter id="card-heavy-shadow" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="16" stdDeviation="32" flood-color="#1a73e8" flood-opacity="0.28"/>
-      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#202124" flood-opacity="0.12"/>
+    <!-- Card Shadow (matching projects.svg) -->
+    <filter id="proj-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#1a73e8" flood-opacity="0.10"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#202124" flood-opacity="0.05"/>
     </filter>
     
     <!-- ULTRA-HEAVY SHADOW FILTER 2: Icon Group Shadow -->
@@ -25,7 +24,7 @@
   </defs>
 
   <!-- Main Card Rectangle with Ultra-Heavy Shadow applied -->
-  <rect width="800" height="200" rx="12" fill="url(#circuit-bg)" filter="url(#card-heavy-shadow)" stroke="#dadce0" stroke-width="1.2"/>
+  <rect width="800" height="200" rx="12" fill="url(#circuit-bg)" filter="url(#proj-shadow)" stroke="#dadce0" stroke-width="1.2"/>
 
   <!-- Blueprint Grid Lines (Subtle) -->
   <g stroke="#1a73e8" stroke-width="0.75" opacity="0.3" fill="none">
