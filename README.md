@@ -1,1 +1,1 @@
-![Circuit Board Hook](./circuit-board.svg)
+![Circuit Board Hook](./blueprint-banner.svg)
